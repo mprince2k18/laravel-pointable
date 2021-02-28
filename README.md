@@ -7,7 +7,7 @@
 
 Point Transaction system for Laravel 8.*
 
-Original Package from [Trexology](https://github.com/Trexology/laravel-pointable)
+Inspired from [Trexology](https://github.com/Trexology/laravel-pointable)
 
 ## Installation
 
