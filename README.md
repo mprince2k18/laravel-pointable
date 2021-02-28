@@ -1,6 +1,7 @@
-[![Latest Stable Version](https://poser.pugx.org/mprince/pointable/v/stable)](https://packagist.org/packages/mprince/pointable)
-[![Total Downloads](https://poser.pugx.org/mprince/pointable/downloads)](https://packagist.org/packages/mprince/pointable)
-[![Latest Unstable Version](https://poser.pugx.org/mprince/pointable/v/unstable)](https://packagist.org/mprince/trexology/pointable) [![License](https://poser.pugx.org/mprince/pointable/license)](https://packagist.org/packages/mprince/pointable)
+[![Latest Stable Version](https://poser.pugx.org/mprince/laravel-pointable/v/stable)](https://packagist.org/packages/mprince/laravel-pointable)
+[![Total Downloads](https://poser.pugx.org/mprince/laravel-pointable/downloads)](https://packagist.org/packages/mprince/laravel-pointable)
+[![Latest Unstable Version](https://poser.pugx.org/mprince/laravel-pointable/v/unstable)](https://packagist.org/packages/mprince/laravel-pointable) 
+[![License](https://poser.pugx.org/mprince/laravel-pointable/license)](https://packagist.org/packages/mprince/laravel-pointable)
 
 # Laravel Pointable
 
