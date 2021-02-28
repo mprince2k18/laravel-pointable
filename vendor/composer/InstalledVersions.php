@@ -19,7 +19,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4f1029f4658166def68294b662aa7c49de46f613',
+    'reference' => '509201be19e92934f530ffe242cb97451554687f',
     'name' => 'mprince/laravel-pointable',
   ),
   'versions' => 
@@ -76,7 +76,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4f1029f4658166def68294b662aa7c49de46f613',
+      'reference' => '509201be19e92934f530ffe242cb97451554687f',
     ),
     'nesbot/carbon' => 
     array (

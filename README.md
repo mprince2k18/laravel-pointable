@@ -13,20 +13,20 @@ Original Package from [Trexology](https://github.com/Trexology/laravel-pointable
 First, pull in the package through Composer.
 
 ```js
-composer require alariva/laravel-pointable
+composer require Mprince/laravel-pointable
 ```
 
 And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    Alariva\Pointable\PointableServiceProvider::class
+    Mprince\Pointable\PointableServiceProvider::class
 ];
 ```
 
 At last you need to publish and run the migration.
 ```
-php artisan vendor:publish --provider="Alariva\Pointable\PointableServiceProvider" && php artisan migrate
+php artisan vendor:publish --provider="Mprince\Pointable\PointableServiceProvider" && php artisan migrate
 ```
 
 -----
@@ -37,8 +37,8 @@ php artisan vendor:publish --provider="Alariva\Pointable\PointableServiceProvide
 
 namespace App;
 
-use Alariva\Pointable\Contracts\Pointable;
-use Alariva\Pointable\Traits\Pointable as PointableTrait;
+use Mprince\Pointable\Contracts\Pointable;
+use Mprince\Pointable\Traits\Pointable as PointableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model implements Pointable

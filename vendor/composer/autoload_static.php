@@ -31,6 +31,10 @@ class ComposerStaticInit06a48e864034382862f1059be0af54a1
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
         ),
+        'M' => 
+        array (
+            'Mprince\\Pointable\\' => 18,
+        ),
         'I' => 
         array (
             'Illuminate\\Support\\' => 19,
@@ -43,10 +47,6 @@ class ComposerStaticInit06a48e864034382862f1059be0af54a1
         'C' => 
         array (
             'Carbon\\' => 7,
-        ),
-        'A' => 
-        array (
-            'Alariva\\Pointable\\' => 18,
         ),
     );
 
@@ -79,10 +79,14 @@ class ComposerStaticInit06a48e864034382862f1059be0af54a1
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'Mprince\\Pointable\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
-            1 => __DIR__ . '/..' . '/illuminate/collections',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
+            1 => __DIR__ . '/..' . '/illuminate/macroable',
             2 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Contracts\\' => 
@@ -96,10 +100,6 @@ class ComposerStaticInit06a48e864034382862f1059be0af54a1
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
-        ),
-        'Alariva\\Pointable\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

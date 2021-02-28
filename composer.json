@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Alariva\\Pointable\\": "src/"
+            "Mprince\\Pointable\\": "src/"
         }
     }
 }

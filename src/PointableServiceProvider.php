@@ -1,6 +1,6 @@
 <?php
 
-namespace Alariva\Pointable;
+namespace Mprince\Pointable;
 
 use Illuminate\Support\ServiceProvider;
 

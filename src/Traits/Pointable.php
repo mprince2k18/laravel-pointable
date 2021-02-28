@@ -1,8 +1,8 @@
 <?php
 
-namespace Alariva\Pointable\Traits;
+namespace Mprince\Pointable\Traits;
 
-use Alariva\Pointable\Models\Transaction;
+use Mprince\Pointable\Models\Transaction;
 use Illuminate\Database\Eloquent\Model;
 
 trait Pointable
