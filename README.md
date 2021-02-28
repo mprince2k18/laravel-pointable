@@ -27,7 +27,7 @@ And then include the service provider within `app/config/app.php`.
 
 At last you need to publish.
 ```
-php artisan vendor:publish --provider="Mprince\Pointable\PointableServiceProvider" && php artisan migrate
+php artisan vendor:publish --provider="Mprince\Pointable\PointableServiceProvider"
 
 and then run the migration.
 ```
