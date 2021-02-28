@@ -4,7 +4,7 @@
 
 # Laravel Pointable
 
-Point Transaction system for Laravel 5
+Point Transaction system for Laravel 8.*
 
 Original Package from [Trexology](https://github.com/Trexology/laravel-pointable)
 
@@ -13,7 +13,7 @@ Original Package from [Trexology](https://github.com/Trexology/laravel-pointable
 First, pull in the package through Composer.
 
 ```js
-composer require Mprince/laravel-pointable
+composer require mprince/laravel-pointable
 ```
 
 And then include the service provider within `app/config/app.php`.
@@ -24,9 +24,13 @@ And then include the service provider within `app/config/app.php`.
 ];
 ```
 
-At last you need to publish and run the migration.
+At last you need to publish.
 ```
 php artisan vendor:publish --provider="Mprince\Pointable\PointableServiceProvider" && php artisan migrate
+
+and then run the migration.
+```
+php artisan migrate
 ```
 
 -----
@@ -77,7 +81,7 @@ $user = User::first();
 $user->transactions;
 
 //OR
-//$user['transactions'] = $user->transactions(2)->get(); //Get last 2 transactions
+$user['transactions'] = $user->transactions(2)->get(); //Get last 2 transactions
 
 dd($user);
 ```
