@@ -14,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => '3f98c2a89fd3fe76ded9b865fb047c755ab3fe10',
+    'reference' => '4f1029f4658166def68294b662aa7c49de46f613',
     'name' => 'mprince/laravel-pointable',
   ),
   'versions' => 
@@ -33,32 +33,50 @@ private static $installed = array (
       ),
       'reference' => 'c6a0da4f0e06aa5cd83a2c1a4e449fae98c8bad7',
     ),
-    'illuminate/contracts' => 
+    'illuminate/collections' => 
     array (
-      'pretty_version' => '6.x-dev',
-      'version' => '6.9999999.9999999.9999999-dev',
+      'pretty_version' => '8.x-dev',
+      'version' => '8.9999999.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
-      'reference' => '89dc8d7ac32cdfa254461cdd4da5d692b44169a4',
+      'reference' => '3313bb9066ad60d91a3407b3ef02c114e2ecf8eb',
+    ),
+    'illuminate/contracts' => 
+    array (
+      'pretty_version' => '8.x-dev',
+      'version' => '8.9999999.9999999.9999999-dev',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9c7a9868d7485a82663d67109429094c8e4ed56d',
+    ),
+    'illuminate/macroable' => 
+    array (
+      'pretty_version' => '8.x-dev',
+      'version' => '8.9999999.9999999.9999999-dev',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '300aa13c086f25116b5f3cde3ca54ff5c822fb05',
     ),
     'illuminate/support' => 
     array (
-      'pretty_version' => '6.x-dev',
-      'version' => '6.9999999.9999999.9999999-dev',
+      'pretty_version' => '8.x-dev',
+      'version' => '8.9999999.9999999.9999999-dev',
       'aliases' => 
       array (
       ),
-      'reference' => '20e0535a59b2ba902de334138a632fe2f7455e01',
+      'reference' => '0f59c467c1b612122488a262e7f9fb32b30df36a',
     ),
     'mprince/laravel-pointable' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => '3f98c2a89fd3fe76ded9b865fb047c755ab3fe10',
+      'reference' => '4f1029f4658166def68294b662aa7c49de46f613',
     ),
     'nesbot/carbon' => 
     array (
@@ -136,6 +154,15 @@ private static $installed = array (
       array (
         0 => '2.3',
       ),
+    ),
+    'voku/portable-ascii' => 
+    array (
+      'pretty_version' => '1.5.6',
+      'version' => '1.5.6.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '80953678b19901e5165c56752d087fc11526017c',
     ),
   ),
 );
