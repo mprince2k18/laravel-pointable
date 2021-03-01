@@ -13,8 +13,16 @@ Inspired from [Trexology](https://github.com/Trexology/laravel-pointable)
 
 First, pull in the package through Composer.
 
+## For Laravel 8
+
 ```js
 composer require mprince/laravel-pointable
+```
+
+## For Laravel 7
+
+```js
+composer require mprince/laravel7-pointable
 ```
 
 And then include the service provider within `app/config/app.php`.
