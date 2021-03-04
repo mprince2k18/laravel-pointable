@@ -78,6 +78,22 @@ $transaction = $user->addPoints($amount,$message,$data);
 dd($transaction);
 ```
 
+### Substrct Points
+```php
+$user = User::first();
+$amount = 10; // (Double) Can be a negative value
+$message = "The reason for this transaction";
+
+//Optional (if you modify the point_transaction table)
+$data = [
+    'ref_id' => 'someReferId',
+];
+
+$transaction = $user->subPoints($amount,$message,$data);
+
+dd($transaction);
+```
+
 ### Get Current Points
 ```php
 $user = User::first();
