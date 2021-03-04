@@ -78,7 +78,7 @@ $transaction = $user->addPoints($amount,$message,$data);
 dd($transaction);
 ```
 
-### Substrct Points
+### Subtract Points
 ```php
 $user = User::first();
 $amount = 10; // (Double) Can be a negative value
