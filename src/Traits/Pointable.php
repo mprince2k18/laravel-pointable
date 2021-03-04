@@ -44,4 +44,17 @@ trait Pointable
     {
         return (new Transaction())->addTransaction($this, $amount, $message, $data = null);
     }
+
+    /**
+     * @param $amount
+     * @param $message
+     * @param $data
+     *
+     * @return static
+     */
+    public function subPoints($amount, $message, $data = null)
+    {
+        return (new Transaction())->subtractTransaction($this, $amount, $message, $data = null);
+    }
+    
 }

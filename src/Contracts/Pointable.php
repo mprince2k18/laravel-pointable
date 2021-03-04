@@ -26,4 +26,5 @@ interface Pointable
      * @return static
      */
     public function addPoints($amount, $message, $data = null);
+    public function subPoints($amount, $message, $data = null);
 }

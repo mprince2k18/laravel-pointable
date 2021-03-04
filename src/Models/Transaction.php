@@ -68,4 +68,30 @@ class Transaction extends Model
 
         return $transaction;
     }
+
+    /**
+     * @param Model $pointable
+     * @param $amount
+     * @param $message
+     * @param $data
+     *
+     * @return static
+     */
+    public function subtractTransaction(Model $pointable, $amount, $message, $data = null)
+    {
+        $transaction = new static();
+        $transaction->amount = $amount;
+
+        $transaction->current = $this->getCurrentPoints($pointable) - $amount;
+
+        $transaction->message = $message;
+        if ($data) {
+          $transaction->fill($data);
+        }
+        // $transaction->save();
+        $pointable->transactions()->save($transaction);
+
+        return $transaction;
+    }
+    
 }
